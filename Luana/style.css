@@ -1,44 +1,67 @@
-body{
+body {
     background-color: rgb(255, 255, 255);
 }
-p{
+
+p {
     font-size: 50px;
     color: rgb(255, 43, 131);
     text-align: center;
 
 }
-h2{
-    font-size: 25px;
-  }
 
-ol{
-    h1{
+h2 {
+    font-size: 25px;
+}
+
+ol {
+    h1 {
         color: blueviolet;
         font-size: 20px;
         font-style: oblique;
-       
+
     }
-        h2{
-            color: rgb(0, 162, 255);
-            font-size: 20px;
-            font-style: oblique;
-        }
-        h3{
-            color: rgb(248, 133, 219);
-            font-size: 20px;
-            font-style: oblique;
-        }
-        
-       
-    
-}
-header{
-    background-color: rgb(250, 170, 233);
-    
-}
-nav ul li{
-    display:inline-block;
-    margin: 10px;
-    text-align: center;
+
+    h2 {
+        color: rgb(0, 162, 255);
+        font-size: 20px;
+        font-style: oblique;
+    }
+
+    h3 {
+        color: rgb(248, 133, 219);
+        font-size: 20px;
+        font-style: oblique;
+    }
+
+
+
 }
 
+header {
+    background-color: rgb(250, 170, 233);
+    text-align: center;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+
+}
+
+li a {
+    color: black;
+    font-size: 25px;
+    font-style: initial;
+
+}
+
+button {
+border: 5px solid black;
+}
+button:hover{
+    background-color: aliceblue;
+    color: rgb(236, 51, 144);
+    transform: scale(1.1); /* aumenta levemente*/
+}
