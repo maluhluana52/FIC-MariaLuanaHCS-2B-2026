@@ -6,13 +6,16 @@ p {
     font-size: 50px;
     color: rgb(255, 43, 131);
     text-align: center;
-
-}
-
+    }
 h2 {
     font-size: 25px;
+    color: rgb(255, 43, 131);
 }
-
+#Irmãs{
+    color: rgb(248, 133,219);
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+}
 ol {
     h1 {
         color: blueviolet;
@@ -64,4 +67,7 @@ button:hover{
     background-color: aliceblue;
     color: rgb(236, 51, 144);
     transform: scale(1.1); /* aumenta levemente*/
+}
+footer{
+    padding: 20px;
 }
